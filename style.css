@@ -1,4 +1,33 @@
 h1 {
-    color: red;
     text-align: center;
+    color: red;
+}
+
+h2 {
+    margin: 20px;
+    color: #471fb6;
+}
+
+.abc {
+    background-color: yellow;
+}
+
+.abc h1 {
+    color: green;
+    text-align: left;
+    margin: 20px;
+}
+
+.abc p {
+    font-size: 18px;
+    margin: 20px;
+    color: blue;
+}
+.navbar {
+    display: flex;
+    position: fixed;
+    height: 50px;
+    width: 50px;
+    padding: 10px;
+    cursor: pointer;
 }
